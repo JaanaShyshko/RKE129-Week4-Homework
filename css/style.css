@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+background-color: beige;
+text-align: center;
+}
+
+.koostisosad {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.koostiosad-table {
+    opacity: 0;
+    margin: 0 auto;
+    animation: koostiosad-table;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes koostiosad-table {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.instruktsioonid {
+    border: 2px solid black;
+    width: 30%;
+    margin: 0 auto;
+    text-align: left;
+    -webkit-text-fill-color: brown;
+}
+
+.pealkiri {
+    font-family: 'Bebas Neue', sans-serif;
+    position: relative;
+    animation: pealkiri;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes pealkiri {
+    0% {top: -250px;}
+    100% {top: 0;}
+}
+
+.retsept {
+    opacity: 0;
+    animation: retsept;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes retsept {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
